@@ -9,7 +9,7 @@ This tutorial demonstrates how to access an SD card on ESP32 using **SDMMC one-b
 This ESP32 board supports **two methods** to communicate with an SD card:
 
 1. **SPI Interface**
-   - Uses 4 GPIOs
+   - Uses 4 GPIOs (CS, SCK, MOSI and MISO)
    - Compatible with standard `SD.h` (SPI mode)
 
 2. **SDMMC Interface**
